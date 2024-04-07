@@ -63,7 +63,7 @@ public class MainClass {
             if (ch == '1') {
                 getProcessInformation(input);
             } else if (ch == '2') {
-
+                // هنا بنسوي print write 
             } else if (ch == '3') {
                 break;
             }
