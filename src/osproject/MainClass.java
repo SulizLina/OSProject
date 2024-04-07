@@ -7,6 +7,9 @@ package osproject;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
+//بقى المينيو الظاهر جوري بتسويه وبقى ميثودين
+//writeReprot and printReport
+//don't forget try,catch in writeReprot
 
 public class MainClass {
 
@@ -47,5 +50,26 @@ public class MainClass {
         Scanner input = new Scanner(System.in);
 
         char ch = '0';
+        while (ch != '3') {
+            System.out.println("Multilevel Queue Scheduling:");
+            System.out.println("----------------------------");
+            System.out.println("1) Processí information.");
+            System.out.println("2) Report.");
+            System.out.println("3) Exit.");
+            System.out.println("---------");
+            System.out.print("Choice: ");
+
+            ch = input.next().charAt(0);
+            if (ch == '1') {
+                getProcessInformation(input);
+            } else if (ch == '2') {
+
+            } else if (ch == '3') {
+                break;
+            }
+
+            System.out.println();
+        }
+        input.close();
     }
 }
