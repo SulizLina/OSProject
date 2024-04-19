@@ -7,7 +7,7 @@ package osproject;
  */
 public class Process {
 
-    public int id;
+   public int id;
     public int priority;
     public int arrivalTime;
     public int burstTime;
@@ -42,4 +42,88 @@ public class Process {
                 + "\n  Waiting Time: " + waitingTime
                 + "\n  Response Time: " + responseTime;
     }
+    //
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getPriority() {
+        return priority;
+    }
+
+    public void setPriority(int priority) {
+        this.priority = priority;
+    }
+
+    public int getArrivalTime() {
+        return arrivalTime;
+    }
+
+    public void setArrivalTime(int arrivalTime) {
+        this.arrivalTime = arrivalTime;
+    }
+
+    public int getBurstTime() {
+        return burstTime;
+    }
+
+    public void setBurstTime(int burstTime) {
+        this.burstTime = burstTime;
+    }
+
+    public int getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(int startTime) {
+        this.startTime = startTime;
+    }
+
+    public int getTerminateTime() {
+        return terminateTime;
+    }
+
+    public void setTerminateTime(int terminateTime) {
+        this.terminateTime = terminateTime;
+    }
+
+    public int getTurnAroundTime() {
+        return turnAroundTime;
+    }
+
+    public void setTurnAroundTime(int turnAroundTime) {
+        this.turnAroundTime = turnAroundTime;
+    }
+
+    public int getWaitingTime() {
+        return waitingTime;
+    }
+
+    public void setWaitingTime(int waitingTime) {
+        this.waitingTime = waitingTime;
+    }
+
+    public int getResponseTime() {
+        return responseTime;
+    }
+
+    public void setResponseTime(int responseTime) {
+        this.responseTime = responseTime;
+    }
+
+    public int getTimeInCPU() {
+        return timeInCPU;
+    }
+
+    public void setTimeInCPU(int timeInCPU) {
+        this.timeInCPU = timeInCPU;
+    }
+    
+    
+    
 }
